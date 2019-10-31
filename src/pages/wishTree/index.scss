@@ -1,0 +1,83 @@
+.wishtree{
+    height: 100%;
+    background-size: contain;
+    overflow: hidden;
+    .treebox{
+        background:#eee url(../../assets/img/ic_wish_tree_background.png)  no-repeat;
+        background-size: contain;
+    }
+}
+.container{
+    height: 80%;
+    position: relative;   
+}
+.FriendList{
+    padding-top: 5.66rem;
+}
+.guideTarget0{
+        position: absolute;
+        right: 0.1rem;
+        display: block;
+        top: 1rem;
+        z-index: 10;
+        width: 0.75rem;
+        height: 0.75rem;  
+        display: block;
+        background: url(../../assets/img/ic_ecology.png) no-repeat;
+        background-size:contain
+
+}
+.tree{
+    position: absolute;
+    width: 3.15rem;
+    height: 3.4rem;
+    top: 1rem;
+    left: 0.6rem;
+    background: url(../../assets/img/tree_cont.png) no-repeat;
+    background-size: contain;
+}
+.entry{
+    display: flex;
+    position: absolute;
+    top:4.5rem;
+    .guideTarget1,.guideTarget2,.guideTarget3{
+        width: 0.75rem;
+        height: 0.75rem;  
+        display: block;
+        margin-left: 0.1rem;
+    }
+    .guideTarget1{
+        background: url(../../assets/img/ic_sign.png) no-repeat;
+        background-size:contain
+
+    }
+    .guideTarget2{
+        background: url(../../assets/img/ic_vow.png) no-repeat;
+        background-size:contain
+
+    }
+    .guideTarget3{
+        background: url(../../assets/img/ic_diary.png) no-repeat;
+        background-size:contain
+    }
+}
+.guide-content{
+    .guide-container{
+        height: 0.5rem;
+        margin-top: 0.1rem;
+            h1{
+                margin-top: 0.25rem;
+                padding: 0.05rem;
+                border-radius: 0.05rem;
+                background: #999;
+                border: 0.01rem dashed #fff;
+                font-size: 0.16rem;
+            }
+            .btn{
+                margin-bottom: 1rem;
+                text-align: center;
+                font-size: 0.16rem;
+            }
+        
+    }
+}

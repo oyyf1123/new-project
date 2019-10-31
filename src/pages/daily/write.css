@@ -1,0 +1,44 @@
+.write_box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: .3rem;
+}
+.chicken_soup{
+  flex: 1;
+}
+.chicken_soup p{
+  font-size: .16rem;
+  font-weight: 500;
+  padding-left: .2rem;
+  letter-spacing: .01rem;
+  display: block;
+  padding-top: .2rem;
+}
+.write_content{
+  flex: 6;
+  padding: .1rem;
+}
+.write_btn{
+  flex: 2;
+}
+.write_content .am-list-item{
+  padding-right: .15rem;
+  background: rgba(255, 255, 255, .2);
+  border: 0.01rem solid rgba(255, 255, 255, .2);
+  border-radius: .1rem;
+}
+.am-textarea-count span {
+  color: #FFF;
+}
+.am-textarea-control textarea {
+  color: #fff;
+}
+
+.write_btn_img{
+  display: block;
+  margin: 0 auto;
+  width: 2.7rem;
+  height: .7rem;
+  padding-top: .3rem;
+}

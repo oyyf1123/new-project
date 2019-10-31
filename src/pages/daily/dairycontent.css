@@ -1,0 +1,28 @@
+.dairy_content_box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.dairy_content_time{
+  flex: 1;
+  line-height: .77rem;
+}
+.dairy_content_time{
+  font-size: .18rem;
+  color: #fff;
+  opacity: .9;
+}
+.dairy_content_time span{
+  padding-left: .2rem;
+}
+.dairy_content_text{
+  flex: 8;
+}
+.dairy_content_text p{
+  padding: .15rem;
+  font-size: .16rem;
+  color: #fff;
+  letter-spacing: .015rem;
+  line-height: .22rem;
+  opacity: .9;
+}

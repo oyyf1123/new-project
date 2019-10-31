@@ -1,0 +1,68 @@
+.wode{
+  display: flex;
+  flex-direction: column;
+}
+.wode_text{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.null{
+  flex: 1;
+}
+.wode_text p{
+  flex: 1;
+  color: #fff;
+  font-weight: bold;
+}
+.wode_img{
+  flex: 1;
+}
+.wode_btn{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wode_history{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img{
+  width:1.62rem;
+  height:1.62rem;
+  margin: 0 auto;
+}
+.img_img{
+  width:1.62rem;
+  height:1.62rem;
+}
+.img1{
+  flex: 1;
+  display: block;
+  width: 2.65rem;
+  height: .65rem;
+  margin: 0 auto;
+}
+.btn_img{
+  width: 2.65rem;
+  height: .65rem;
+}
+
+.img2{
+  flex: 1;
+  display: block;
+  opacity: .9;
+}
+.img2 i{
+  font-size: .16rem;
+  color: #fff;
+}
+.img2 span{
+  color: #fff;
+  font-size: .16rem;
+  margin-left: .08rem;
+  letter-spacing:.02rem;
+}

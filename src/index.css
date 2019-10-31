@@ -1,0 +1,35 @@
+#root,
+.App,
+html,
+body {
+    height: 100%;
+}
+
+* {
+    touch-action: none;
+}
+
+.wode,
+.teshe,
+.shengtai,
+.gushu {
+    flex: 1;
+}
+
+i {
+    font-size: 0.2rem;
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.flex1{
+    flex: 1;   
+}
+
+/* icon图标类名前缀 */
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    flex: 1; 
+}

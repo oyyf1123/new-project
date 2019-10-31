@@ -1,0 +1,42 @@
+.wrap-box{
+    width:100%;
+    height: 100%;
+    background-color:#f8f8f8;
+    // 个人信息
+    .personal-info{
+        .am-navbar{
+            height:.55rem;
+        }
+    }
+    // 头像栏
+    .header-pic{
+        margin-bottom:.15rem;
+       .am-list-line-multiple{
+            padding:0;
+            padding-right: .15rem;
+           .am-list-content{
+            display: flex;
+            height:.58rem;
+            line-height: .58rem;
+            justify-content: space-between;
+           
+            img{
+                height: .58rem;
+                width: .58rem;
+                border-radius: 50%;
+            }
+        
+        }
+       }
+        
+      
+    }
+    .list-box{
+        margin-bottom:.15rem; 
+    }
+    .exit{
+        text-decoration: none;
+        color: #ff3c3c;
+    }
+
+}

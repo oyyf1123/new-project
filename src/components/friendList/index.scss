@@ -1,0 +1,65 @@
+.friendlist{
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.1rem;
+    padding: 0 0.2rem;
+    p{
+        font-size: 0.20rem;
+        font-weight: 700;
+    }
+    .find_friend{
+        width: 0.95rem;
+        height: 0.28rem;
+        background: url(../../assets/img/ic_search_user.png);
+        background-size: contain;
+    }
+}
+.lists{
+    .item{
+        height: 0.5rem;
+        padding: 0.1rem 0.15rem;
+        background: #fff;
+        margin-top: 0.1rem;
+        display: flex;
+        .topNum{
+            line-height: 0.5rem;
+            margin-right: 0.05rem;
+        }
+        .headerImg{
+            width: 0.4rem;
+            height: 0.4rem;
+            background: url(../../assets/img/ysf_emoji_icon.png);
+            background-size: contain;
+        }
+        .username{
+            margin-left: 0.05rem;
+            div{
+                color: #000;
+                font-size: 0.18rem;
+                margin-bottom: 0.05rem;
+            }
+            p{
+                font-size: 0.14rem;
+            }
+        }
+        .enery{
+            width: 1rem;
+            line-height: 0.5rem;
+            text-align: center;
+            color: #0fa87e;
+        }
+        .TA_wish{
+            width: 0.9rem;
+            height: 0.2rem;
+            color: #0fa87e;
+            font-size: 0.14rem;
+            border: 0.01rem #0fa87e solid;
+            padding: 0.05rem;
+            border-radius: 0.05rem;
+            margin-top: 0.09rem;
+        }
+    }
+}

@@ -1,0 +1,222 @@
+@import 'assets/global_style/theme.scss';
+.details-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+
+    /* 详情页头部 start*/
+    .details-header {
+        height: .65rem;
+        display: flex;
+        align-items: center;
+
+        .go-back {
+            flex: 60;
+            text-align: center;
+            height: .65rem;
+            line-height: .65rem;
+            i {
+                font-size: .20rem;
+            }
+        }
+
+        h3 {
+            flex: 315;
+            text-indent: 35%;
+            font-weight: 600;
+            font-size: .18rem;
+        }
+    }
+
+    /* 详情页头部 end*/
+
+    /* 详情页container start */
+    .details-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background: #f9f9f9;
+        overflow: hidden;
+
+        .details-wrap {
+
+            //banner图
+            .details-banner {
+                position: relative;
+                z-index: 1;
+                height: 2.4rem;
+                width: 100%;
+                img {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            //树木简介
+            .trees-info {
+                background: #fff;
+                margin: .16rem .16rem 0;
+                border-radius: .1rem;
+                padding: .1rem;
+
+                h3 {
+                    font-weight: 600;
+                    font-size: .2rem;
+                    padding: .05rem 0 .1rem 0;
+                }
+
+                p {
+                    color: #979797;
+                    font-size: .14rem;
+                    line-height: .28rem;
+                }
+            }
+
+            //树木详情
+            .trees-details {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 0 .16rem;
+                box-sizing: border-box;
+                h3 {
+                    position: relative;
+                    z-index: 1;
+                    height: .34rem;
+                    text-align: center;
+                    color: #979797;
+                    font-size: .12rem;
+                    line-height: .34rem;
+                    &::after {
+                        display: block;
+                        content: "";
+                        width: .28rem;
+                        height: .01rem;
+                        background: #ccc;
+                        position: absolute;
+                        top: 50%;
+                        right: 50%;
+                        margin-right: 0.28rem;
+                    }
+                    &::before {
+                        display: block;
+                        content: "";
+                        width: .28rem;
+                        height: .01rem;
+                        background: #ccc;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-left: 0.28rem;
+                    }
+                }
+
+                .img-box {
+                    width: 100%;
+                    .item-img {
+                        width: 100%;
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    /* 详情页container end */
+
+    /* 详情页footer start */
+    .details-footer {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        height: .8rem;
+        width: 100%;
+        padding: 0.1rem .16rem;
+        //协议盒子
+        .agreement-box {
+            display: flex;
+            align-items: center;
+            height: .16rem;
+            //覆盖antd 样式
+            .am-list-item  {
+                min-height: 0;
+                padding-left: 0;
+                line-height: .1rem;
+                .am-list-thumb:first-child {
+                    margin-right: 0;
+                    .am-checkbox,.am-checkbox-inner {
+                        width: .15rem;
+                        height: .15rem;
+                    }
+                    .am-checkbox-inner:after{
+                        right: .035rem;
+                        height: .06rem;
+                        width: .04rem;
+                    }
+                }
+                .am-list-line  {
+                    padding-right: 0;
+                }
+                
+            }
+            .agreement-content {
+                padding-left: .1rem;
+                color: #333;
+                font-size: .14rem;
+                
+                a {
+                    font-size: .14rem;
+                    color: $themeColor;
+                }
+            }
+        }
+        //点击认领按钮盒子
+        .claim-box {
+            flex: 1;
+            display: flex;
+            padding-left: .12rem;
+            align-items: center;
+        }
+        .service {
+            display: flex;
+            flex-direction: column;
+            width: .8rem;
+            color: #979797;
+            .iconfont {
+                font-size: .18rem;
+                margin-bottom: .04rem;
+                text-indent: .16rem;
+            }
+            span {
+                font-size: .12rem;
+                text-indent: .14rem;
+            }
+        }
+        .claim-btn {
+            flex: 1;
+            height: .38rem;
+            line-height: .38rem;
+            a {
+                display: block;
+                width: 80%;
+                height: 100%;
+                text-decoration: none;
+                text-align: center;
+                color: #fff;
+                background: $themeColor;
+                border-radius: .2rem;
+            }
+        }
+    }
+
+    /* 详情页footer end */
+
+
+}

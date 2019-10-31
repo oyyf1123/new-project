@@ -1,0 +1,55 @@
+@import 'assets/global_style/theme.scss';
+.home-tabbar {
+    height: 0.48rem;
+    display: flex;
+    background: white;
+
+    a {
+        flex: 1;
+        font-size: .14rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #979797;
+        .iconfont {
+            font-size: .20rem;
+        }
+        .icon-zoology-trees {
+            background: url(../../assets/img/icon_bg_bottom/ic_bottom_home.png) no-repeat left top;
+            background-size: contain;
+        }
+        .icon-old-trees {
+            background: url(../../assets/img/icon_bg_bottom/ic_bottom_ancient.png) no-repeat left top;
+            background-size: contain;
+        }
+        .icon-feature-trees {
+            background: url(../../assets/img/icon_bg_bottom/ic_bottom_adpot.png) no-repeat left top;
+            background-size: contain;
+        }
+        .icon-mine {
+            background: url(../../assets/img/icon_bg_bottom/ic_bottom_account.png) no-repeat left top;
+            background-size: contain;
+        }
+        &.active {
+            color: $themeColor;
+            text-decoration: none;
+            .icon-zoology-trees {
+                background: url(../../assets/img/icon_bg_bottom/ic_bottom_homed.png) no-repeat left top;
+                background-size: contain;
+            }
+            .icon-old-trees {
+                background: url(../../assets/img/icon_bg_bottom/ic_bottom_anciented.png) no-repeat left top;
+                background-size: contain;
+            }
+            .icon-feature-trees {
+                background: url(../../assets/img/icon_bg_bottom/ic_bottom_adpoted.png) no-repeat left top;
+                background-size: contain;
+            }
+            .icon-mine {
+                background: url(../../assets/img/icon_bg_bottom/ic_bottom_accounted.png) no-repeat left top;
+                background-size: contain;
+            }
+        }
+    }
+}

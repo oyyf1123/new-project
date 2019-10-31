@@ -1,0 +1,94 @@
+.mydaily_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  没有日记的时候显示的内容 */
+.mydaily {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 30%;
+  text-align: center;
+}
+
+.mydaily img {
+  width: 1.7rem;
+  height: 1.25rem;
+}
+
+.mydaily span {
+  padding-top: .3rem;
+  color: rgba(255, 255, 255, .7);
+  font-size: .16rem;
+  letter-spacing: .01rem;
+}
+
+
+/* 有日记时显示的内容 */
+.mydaily_list_box {
+  display: flex;
+  height: 100%;
+  padding-top: .2rem;
+}
+
+.mydaily_box ul {
+  display: block;
+  margin: 0 auto;
+}
+
+.mydaily_list_box ul li {
+  width: 3.5rem;
+  height: 1.1rem;
+  border-radius: .1rem;
+  background: url(https://s2.ax1x.com/2019/10/30/K4G0v8.png);
+  background-size: cover;
+  margin-bottom: .15rem;
+}
+
+.time_box {
+  float: left;
+  width: .85rem;
+  height: 1.1rem;
+  border-right: .01rem dashed rgba(0, 0, 0, .3);
+}
+.time_box span{
+  height: 49%;
+  display: block;
+  text-align: center;
+}
+
+.time_box .yueri{
+  font-size: .22rem;
+  line-height: .7rem;
+  color: black;
+}
+.time_box .nian{
+  font-size: .15rem;
+  color: rgba(0, 0, 0, .3);
+}
+
+.content_box {
+  float: right;
+  width: 2.6rem;
+  height: 1.1rem;
+}
+
+.content_box p {
+  width: 2.4rem;
+  height: 0.8rem;
+  color: #333;
+  margin: .1rem;
+  font-weight: 100;
+  font-size: .14rem;
+  letter-spacing: .01rem;
+  line-height: .2rem;
+  /* 多行溢出隐藏 */
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

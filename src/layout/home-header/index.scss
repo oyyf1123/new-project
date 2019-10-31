@@ -1,0 +1,25 @@
+.home-header{
+    /* 覆盖指示点的央视 */
+    height: 1.94rem;
+    overflow: hidden;
+    .slider-decorator-0 {
+        text-align: right!important;
+        .am-carousel-wrap {
+            text-align: right!important;
+            padding-right: .16rem;
+            box-sizing: border-box;
+        }
+    }
+    /* 覆盖banner图样式 */
+    .slider-frame {
+        .slider-list {
+            .slider-slide {
+                a {
+                    img {
+                        height: 1.94rem;
+                    }
+                }
+            }
+        }
+    }
+}

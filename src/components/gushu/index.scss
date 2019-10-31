@@ -1,0 +1,21 @@
+.gushu{
+    >span{
+        position: absolute;
+        top: 0.6rem;
+        right: 0.1rem;
+        display: block;
+        height: .22rem;
+        width: .55rem;
+        line-height: .22rem;
+        font-size: .14rem;
+        background: #93b7af;
+        border-radius: .2rem;
+        padding: .03rem;
+        text-indent: .02rem;
+    }
+    >div{
+        margin-top: 1rem;
+        background: pink;
+        flex: 1;
+    }
+}

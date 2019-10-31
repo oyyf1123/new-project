@@ -1,0 +1,146 @@
+@import 'assets/global_style/theme.scss';
+.ecotope-box{
+    /* 头部分享btn */
+    .share-btn {
+        position: absolute;
+        top: 0.6rem;
+        right: 0.1rem;
+        display: block;
+        height: .22rem;
+        width: .55rem;
+        line-height: .22rem;
+        font-size: .14rem;
+        background: #93b7af;
+        border-radius: .2rem;
+        padding: .03rem;
+        text-indent: .02rem;
+    }
+    /* container盒子start */
+    .ecotope-container-box {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: .1rem;
+        overflow: hidden;
+        // title头部
+        .ecotope-title-box {
+            display: flex;
+            flex-direction: column;
+            padding: .1rem;
+            .title-info {
+                display: flex;
+                justify-content: space-between;
+                padding: .16rem 0;
+                h3 {
+                    font-weight: 600;
+                }
+                a {
+                    font-size: .14rem;
+                    color: #979797;
+                }
+            }
+            .area-box {
+                a {
+                    font-size: .14rem;
+                    color: #979797;
+                }
+            }
+        }
+        //list-item
+        .ecotope-list-box {
+            flex: 1;
+            overflow: hidden;
+            .ecotope-list-wrap {
+                padding: 0 .1rem;
+                .item {
+                    width: 100%;
+                    padding: .05rem;
+                    box-sizing: border-box;
+                    a {
+                        display: flex;
+                        height: 100%;
+                        justify-content: space-between;
+                        .tree-img {
+                            width: .73rem;
+                            height: .73rem;
+                            margin-right: .12rem;
+                            img {
+                                display: block;
+                                width: .73rem;
+                                height: .73rem;
+                            }
+                        }
+                        .tree-info {
+                            display: flex;
+                            flex: 1;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            h3 {
+                                font-weight: 600;
+                            }
+                            p {
+                                color: #979797;
+                            }
+                            .pic {
+                                color: red;
+                            }
+                        }
+                        .want-to-adopt {
+                            display: flex;
+                            align-items: center;
+                            .want-to-adopt-btn {
+                                display: block;
+                                width: .7rem;
+                                height: .3rem;
+                                line-height: .3rem;
+                                background: $themeColor;
+                                color: #fff;
+                                font-size: .14rem;
+                                text-align: center;
+                                border-radius: .15rem;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+     /* container盒子end */
+
+    /* 转赠盒子start*/
+    .donation-box {
+        position: absolute;
+        right: 0.1rem;
+        bottom: 1rem;
+        padding: 0.05rem;
+        text-align: center;
+        height: .9rem;
+        width: .36rem;
+        box-shadow: 0 0 .05rem #92d7d3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        li {
+            position: relative;
+            a {
+                font-size: .12rem;
+                color: #333;
+            }
+        }
+        .first::after {
+            display: block;
+            content: "";
+            width: 100%;
+            height: .02rem;
+            background: #ccc;
+            position: absolute;
+            left: 0;
+            bottom: -.15rem;
+        }
+    }
+    /* 转赠盒子end*/
+}

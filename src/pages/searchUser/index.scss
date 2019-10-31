@@ -1,0 +1,75 @@
+.SearchUser{
+    height: 100%;
+    background: #eee;
+    header{
+        height: 0.5rem;
+        background: #fff;
+        display: flex;
+        i{
+            font-size: 0.3rem;
+            line-height: 0.5rem;
+            width: 0.3rem;
+            margin-left: 0.05rem;
+        }
+        p{
+            flex: 1;
+            text-align: center;
+            line-height: 0.5rem;
+            font-size: 0.20rem;
+            color: #000;
+        }
+    }
+    .SearchUserList{
+        .nofriend{
+            margin-top: 0.2rem;
+            text-align: center;
+        }
+        .havefriend{
+            display: flex;
+            background: #fff;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            padding: 0.1rem;
+            margin-bottom: 0.05rem;
+            .have_img{
+                width: 0.4rem;
+                height: 0.4rem;
+                background: url(../../assets/img/ysf_emoji_icon.png);
+                background-size: contain;
+            }
+            .have_name{
+                margin-left: 0.05rem;
+                flex: 1;
+            }
+            .have_tel{
+                flex: 2;
+            }
+            .have_icon{
+                width: 0.2rem;
+            }
+        }
+    }
+}
+.am-search {
+    border-bottom: 1px solid #ddd;
+    height: 0.6rem;
+    .am-search-input {
+        height: 0.4rem;
+         .am-search-synthetic-ph{
+             line-height: 0.4rem;
+         }
+         input[type="search"]{
+            height: 0.4rem;
+         }
+         .am-search-clear{
+            width: 0.2rem;
+            height: 0.2rem;
+            padding: 0.1rem;
+         }
+    }
+}
+  .sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+}
